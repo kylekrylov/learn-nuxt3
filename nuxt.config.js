@@ -34,6 +34,6 @@ export default defineNuxtConfig({
     ],
 
     router: {
-        base: ''
+        base: 'learn-nuxt3/'
     },
 })
