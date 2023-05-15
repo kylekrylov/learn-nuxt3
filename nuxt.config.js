@@ -27,7 +27,7 @@ export default defineNuxtConfig({
                 'autoprefixer': {}
             }
         },
-        publicPath: ''
+        publicPath: '_nuxt/'
     },
 
     css: [
