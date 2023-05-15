@@ -1,4 +1,4 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+/// https://nuxt.com/docs/api/configuration/nuxt-config
 import {defineNuxtConfig} from '@nuxt/bridge';
 
 export default defineNuxtConfig({
@@ -31,5 +31,9 @@ export default defineNuxtConfig({
 
     css: [
         "~/assets/style/main.scss"
-    ]
+    ],
+
+    router: {
+        base: '/learn-nuxt3'
+    },
 })
