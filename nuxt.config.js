@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     ],
     googleFonts: {
         families: {
-            'Montserrat': [400, 500, 700],
+            'Montserrat': [400, 500, 700]
         }
     },
 
@@ -31,9 +31,5 @@ export default defineNuxtConfig({
 
     css: [
         "~/assets/style/main.scss"
-    ],
-
-    router: {
-        base: 'learn-nuxt3/'
-    },
+    ]
 })
