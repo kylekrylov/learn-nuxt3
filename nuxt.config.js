@@ -26,7 +26,8 @@ export default defineNuxtConfig({
             plugins: {
                 'autoprefixer': {}
             }
-        }
+        },
+        publicPath: ''
     },
 
     css: [
@@ -35,6 +36,6 @@ export default defineNuxtConfig({
 
     router: {
         base: '/nuxt-learn/',
-        trailingSlash: false,
+        trailingSlash: false
     },
 })
