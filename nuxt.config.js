@@ -31,5 +31,9 @@ export default defineNuxtConfig({
 
     css: [
         "~/assets/style/main.scss"
-    ]
+    ],
+
+    router: {
+        base: '/nuxt-learn/'
+    },
 })
