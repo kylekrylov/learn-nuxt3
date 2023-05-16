@@ -27,7 +27,6 @@ export default defineNuxtConfig({
                 'autoprefixer': {}
             }
         },
-        publicPath: 'https://kylekrylov.github.io/learn-nuxt3/'
     },
 
     css: [
@@ -35,7 +34,7 @@ export default defineNuxtConfig({
     ],
 
     router: {
-        base: '/nuxt-learn/',
+        base: '',
         trailingSlash: false
     },
 })
